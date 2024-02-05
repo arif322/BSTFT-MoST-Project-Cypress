@@ -1,0 +1,9 @@
+{
+    "logPage" : "//a[normalize-space()='Login']",
+    "username" :"//input[@id='loginForm_username']" ,
+    "password": "//input[@id='loginForm_password']",
+    "submit" : "//span[normalize-space()='Log in']",
+
+    "user_value" : "nafiz@yopmail.com",
+    "user_pass" : "Abc123!"
+}
