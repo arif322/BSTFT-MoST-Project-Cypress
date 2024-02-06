@@ -1,0 +1,6 @@
+{
+    "services" : "//h3[contains(text(),'Grant/Fellowship/Internship/Thesis')]",
+    "BSTFT" : "//a[contains(text(),'Bangabandhu Science and Technology Fellowship Trus')]",
+    "Details" : "//a[contains(text(),'Details')]",
+    "apply" : "//div[@class='ant-card ant-card-bordered card-service-content text-center shadow mb-5 rounded card-negative-margin']//a[1]"
+}

@@ -3,7 +3,7 @@ import data from '../loginPages/loginPageLocatorsandData.json'
 class login{
     loginProcess(){
 
-        cy.xpath(data.logPage).click()
+    cy.xpath(data.logPage).click()
     cy.wait(2000)
     cy.xpath(data.username).type(data.user_value)
     cy.wait(2000)
