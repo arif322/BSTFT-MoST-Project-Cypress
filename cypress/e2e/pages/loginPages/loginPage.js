@@ -11,7 +11,7 @@ class login{
     cy.wait(2000)
     cy.xpath(data.submit).click()
     cy.wait(2000)
-    
+    cy.screenshot()
 
     }
 }export default login

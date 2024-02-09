@@ -1,0 +1,11 @@
+{
+    "House_Road" : "#registrationForm_permanent_house_road_no",
+    "village" : "#registrationForm_permanent_village",
+    "post_office" : "#registrationForm_permanent_post_office",
+    "Division" : "#registrationForm_permanent_division_id",
+    "select_division" : "//div[contains(text(),'Rajshahi')]",
+    "District" : "#registrationForm_permanent_district_id",
+    "select_district" : "//div[contains(@aria-selected,'false')]//div[contains(@class,'ant-select-item-option-content')][normalize-space()='Rajshahi']",
+    "thana_upozilla" : "#registrationForm_permanent_thana_id",
+    "select_thana_upozilla" : "(//div[contains(@class,'ant-select-item-option-content')][normalize-space()='Godagari'])[1]"
+}

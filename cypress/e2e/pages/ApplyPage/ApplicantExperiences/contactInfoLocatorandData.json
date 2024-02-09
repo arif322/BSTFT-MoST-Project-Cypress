@@ -1,0 +1,10 @@
+{
+    "inside" : "//input[@value='INSIDE_BANGLADESH']",
+    "outside" : "//input[@value='OUTSIDE_BANGLADESH']",
+    "checkbox" : "//input[@type='checkbox']",
+    "registration_mobile" : "//input[@id='registrationForm_mobile']",
+    "alter_mobile" : "#registrationForm_alternative_mobile",
+    "email" : "//input[@id='registrationForm_email']",
+    "skype" :"//input[@id='registrationForm_applicant_skype_id']"
+    
+}

@@ -1,3 +1,20 @@
 {
-    "radioButton" : ".ant-form input[type=radio]"
+    "radioButton" : ".ant-form input[type=radio]",
+    "Study_Type" : "//input[@id='registrationForm_fellowship_country_type']",
+    "type_select" : ".ant-select-item-option-content",
+    "name_bn" : "//input[@id='registrationForm_applicant_name_bn']",
+    "father_name_en" : "//input[@id='registrationForm_applicant_father_name_en']",
+    "father_name_bn" : "//input[@id='registrationForm_applicant_father_name_bn']",
+    "mother_name_en" : "//input[@id='registrationForm_applicant_mother_name_en']",
+    "mother_name_bn" : "//input[@id='registrationForm_applicant_mother_name_bn']",
+    "gender" : "#registrationForm_gender",
+    "gender_select" : ".ant-select-item-option-content",
+    "nid" : "#registrationForm_nid",
+    "marital_status" : "#registrationForm_marital_status",
+    "marital_status_choose" : ".ant-select-item-option-content",
+    "present_status" : "#registrationForm_current_status",
+    "present_status_choose"  :  ".ant-select-item-option-content",
+    "picture_upload" : "//span[@class='ant-upload']",
+    "birthday" : "#registrationForm_dob"
+    
 }
