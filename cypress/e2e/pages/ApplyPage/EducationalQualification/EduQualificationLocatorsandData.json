@@ -1,0 +1,20 @@
+{
+    "addItem" : "//button[@class='ant-btn ant-btn-primary btn btn-create']",
+    "examination" : "#educationalQualificationForm_examination_id",
+    "drop_down" : ".ant-select-item-option-content",
+    "group_department" : "#educationalQualificationForm_department",
+    "board_university" : "#educationalQualificationForm_board",
+    "institute_category" : "#educationalQualificationForm_organization_category",
+    "result_type" : "#educationalQualificationForm_result_type",
+    "passing_year" : "#educationalQualificationForm_passing_year",
+    "year" : "//div[@class='ant-select-item-option-content'][normalize-space()='2007']",
+    "GPA" : "#educationalQualificationForm_total_number",
+    "result" : "#educationalQualificationForm_result",
+    "save_button" : "//button[@class='ant-btn ant-btn-primary']",
+    "Institute_name" : "#educationalQualificationForm_institute_id",
+    "result_select_SSC": "//div[contains(@class,'ant-select-item-option-content')][normalize-space()='B']",
+    "result_select_HSC": "//div[contains(@class,'ant-select-item-option-content')][normalize-space()='A']",
+    "result_select_BSc": "//div[contains(@class,'ant-select-item-option-content')][normalize-space()='B']"
+    
+
+}

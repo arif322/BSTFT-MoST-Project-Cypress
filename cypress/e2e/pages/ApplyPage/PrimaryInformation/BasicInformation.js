@@ -2,6 +2,7 @@ import data3 from '../PrimaryInformation/ApplyInformationLocatorsandData.json'
 class Applicant_Info{
     Applicant_Info(){
 
+        cy.reload(true)
         cy.wait(2000)
         cy.get(data3.radioButton).check('6', {force:true}).should('be.checked')
         cy.wait(2000)
