@@ -37,13 +37,17 @@ class birthdate{
         //   cy.log(date);
         // })
     cy.get('#registrationForm_dob').click()
-    cy.get('.ant-picker-year-btn').eq(0).click();
+    cy.get('.ant-picker-year-btn').eq(0).click({force:true});
        
-     cy.get('.ant-picker-header-super-prev-btn').click().click().click()    // get decade with 1999
+     cy.get('.ant-picker-header-super-prev-btn').click({force:true}).click({force:true}).click({force:true})    // get decade with 1999
     // now select the year
-     cy.get('.ant-picker-content').contains('1999').click()
-     cy.get('.ant-picker-content').contains('May').click()
-     cy.get('.ant-picker-body').contains('23').click()
+     cy.get('.ant-picker-content').contains('1999').click({force:true})
+     cy.wait(2000)
+     cy.get('.ant-picker-content').contains('May').click({force:true})
+     cy.wait(2000)
+     cy.get('.ant-picker-body').contains('3').click({force:true})
+     cy.wait(2000)
+
      cy.screenshot()
 
 

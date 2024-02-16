@@ -1,0 +1,134 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-02-11T22:47:04.212Z",
+    "end": "2024-02-11T22:52:41.419Z",
+    "duration": 337207,
+    "testsRegistered": 2,
+    "passPercent": 50,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "098b6d2e-39b5-49a6-abf4-8cf343d85488",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Tests\\LoginTest.cy.js",
+      "file": "cypress\\e2e\\Tests\\LoginTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f13eb9a5-31b6-4f0f-9cc3-8ca5e7a43904",
+          "title": "BSTFT MoST Project",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login check",
+              "fullTitle": "BSTFT MoST Project Login check",
+              "timedOut": null,
+              "duration": 322937,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "[\n  {\n    \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n    \"value\": \"cypress\\\\e2e\\\\Tests\\\\LoginTest.cy.js\"\n  },\n  {\n    \"title\": \"cypress-mochawesome-reporter-screenshots\",\n    \"value\": [\n      [\n        \"\\\\LoginTest.cy.js\\\\BSTFT MoST Project -- Login check.png\",\n        \"\\\\LoginTest.cy.js\\\\BSTFT MoST Project -- Login check (1).png\",\n        \"\\\\LoginTest.cy.js\\\\BSTFT MoST Project -- Login check (2).png\",\n        \"\\\\LoginTest.cy.js\\\\BSTFT MoST Project -- Login check (3).png\",\n        \"\\\\LoginTest.cy.js\\\\BSTFT MoST Project -- Login check (4).png\",\n        \"\\\\LoginTest.cy.js\\\\BSTFT MoST Project -- Login check (5).png\",\n        \"\\\\LoginTest.cy.js\\\\BSTFT MoST Project -- Login check (6).png\",\n        \"\\\\LoginTest.cy.js\\\\BSTFT MoST Project -- Login check (7).png\",\n        \"\\\\LoginTest.cy.js\\\\BSTFT MoST Project -- Login check (8).png\",\n        \"\\\\LoginTest.cy.js\\\\BSTFT MoST Project -- Login check (9).png\",\n        \"\\\\LoginTest.cy.js\\\\BSTFT MoST Project -- Login check (10).png\"\n      ]\n    ]\n  }\n]",
+              "code": "openUrl.openUrl();\nloginPage.loginProcess();\napply.applyProcess();\npicture_upload.pictureUpload();\nbirthdate.birthdate();\nApplicant_Info.Applicant_Info();\napp_epx.appexp();\ncont_info.contactInfo();\nedu_info_SSC.addeducation_SSC();\nedu_info_HSC.addeducation_HSC();\nedu_info_BSc.addeducation_BSc();\nedu_info_MSc.addeducation_MSc();\nsave_1st_step.savebutton();",
+              "err": {},
+              "uuid": "d73d14bc-70b2-4c14-a8f5-af08a06d874e",
+              "parentUUID": "f13eb9a5-31b6-4f0f-9cc3-8ca5e7a43904",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Second step Applicant Experience",
+              "fullTitle": "BSTFT MoST Project Second step Applicant Experience",
+              "timedOut": null,
+              "duration": 12516,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "[\n  {\n    \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n    \"value\": \"cypress\\\\e2e\\\\Tests\\\\LoginTest.cy.js\"\n  },\n  {\n    \"title\": \"cypress-mochawesome-reporter-screenshots\",\n    \"value\": [\n      [\n        \"\\\\LoginTest.cy.js\\\\BSTFT MoST Project -- Second step Applicant Experience (failed).png\"\n      ]\n    ]\n  }\n]",
+              "code": "cy.log('Starting second step: Applicant Experience');\ntrainingInfo.trainInfomation();\ncy.log('Training information added successfully');\n// experienceInfo.PrevtrainInfomation()\nsave_2nd_step.savebutton();\ncy.log('Second step saved successfully');",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `#registrationForm_importance_of_education`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `#registrationForm_importance_of_education`, but never found it.\n    at trainInfomation (webpack://bstft_most_project/./cypress/e2e/pages/ApplyPage/ExpTrainingInfo/AppTraing.js:95:11)\n    at Context.eval (webpack://bstft_most_project/./cypress/e2e/Tests/LoginTest.cy.js:57:21)",
+                "diff": null
+              },
+              "uuid": "c6edcaf7-a3bb-424e-a381-015f0e524642",
+              "parentUUID": "f13eb9a5-31b6-4f0f-9cc3-8ca5e7a43904",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d73d14bc-70b2-4c14-a8f5-af08a06d874e"
+          ],
+          "failures": [
+            "c6edcaf7-a3bb-424e-a381-015f0e524642"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 335453,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportPageTitle": "custom-title",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "saveAllAttempts": false,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

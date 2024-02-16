@@ -11,6 +11,7 @@ class apply{
         cy.wait(2000)
         cy.xpath(data2.apply).click()
         cy.wait(2000)
+        // cy.xpath("//div[@id='step-1']//div[@role='tab']").click()
         cy.screenshot()
     }
 } export default apply

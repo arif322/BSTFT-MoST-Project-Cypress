@@ -1,4 +1,4 @@
-import data4 from '../PrimaryInformation/ApplyInformationLocatorsandData.json'
+import data4 from './ApplyInformationLocatorsandData.json'
 class pictureUpload{
     pictureUpload(){
         
@@ -17,7 +17,7 @@ class pictureUpload{
         });
 
         // Assuming you have an image tag where the uploaded image will be displayed
-        cy.get('.ant-upload-select-picture-card').eq(0).should('be.visible');
+        cy.xpath(data4.picture_upload).eq(0).should('be.visible');
         cy.get('img').should('be.visible').invoke('on', 'load')
         cy.wait(5000)
         

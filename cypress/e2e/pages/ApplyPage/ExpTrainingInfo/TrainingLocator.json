@@ -1,0 +1,20 @@
+{
+    "addItem" : "//button[@class='ant-btn ant-btn-primary btn btn-create']",
+    "save_button" : "//button[@class='ant-btn ant-btn-primary']",
+    "training" : "//input[@id='training-seminar-courses-form_title']",
+    "organization" : "#training-seminar-courses-form_organization_type",
+    "drop_down" : ".ant-select-item-option-content",
+    "institute" : "#training-seminar-courses-form_name_ofthe_institute",
+    "result" : "#training-seminar-courses-form_result",
+    "course_type" : "#training-seminar-courses-form_course_type",
+    "org_cate" : "#training-seminar-courses-form_organization_category",
+    "reference" : "#training-seminar-courses-form_related_reference_url",
+    "start_year" : "#training-seminar-courses-form_start_year",
+    "end_year" : "#training-seminar-courses-form_end_year_or_expected",
+    "type_exp" : "#previousExperienceForm_type_of_experience",
+    "employee_type" : "#previousExperienceForm_employee_type",
+    "description" : "#previousExperienceForm_description",
+    "location" : "#previousExperienceForm_location",
+    "impact" : "#registrationForm_importance_of_education"
+
+}

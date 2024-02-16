@@ -1,3 +1,7 @@
 {
-    "saveButton_continue" : "//button[@class='ant-btn ant-btn-primary ant-btn-lg']"
+    "saveButton_continue" : "//button[@class='ant-btn ant-btn-primary ant-btn-lg']",
+    "addItem" : "//button[@class='ant-btn ant-btn-primary btn btn-create']",
+    "save_button" : "//button[@class='ant-btn ant-btn-primary']"
+
+    
 }

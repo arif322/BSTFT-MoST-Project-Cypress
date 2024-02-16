@@ -1,4 +1,4 @@
-import education from '../EducationalQualification/EduQualificationLocatorsandData.json'
+import education from './EduQualificationLocatorsandData.json'
 
 class addeducation_HSC{
     addeducation_HSC(){

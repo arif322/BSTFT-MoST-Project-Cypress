@@ -1,4 +1,5 @@
-import data6 from '../ApplicantExperiences/ApplicantExpLocatorsandData.json'
+import data6 from './ApplicantExpLocatorsandData.json'
+
 
 class appexp{
     appexp(){

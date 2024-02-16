@@ -4,6 +4,6 @@
     "password": "//input[@id='loginForm_password']",
     "submit" : "//span[normalize-space()='Log in']",
 
-    "user_value" : "nafiz@yopmail.com",
+    "user_value" : "poly26@yopmail.com",
     "user_pass" : "Abc123!"
 }
